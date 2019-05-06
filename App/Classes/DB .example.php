@@ -5,10 +5,10 @@ use PDO;
 use PDOException;
 
 class DB {
-    private $servername ='localhost';
-    private $dbname='rest';
-    private $username='emon';
-    private $password='kousik6@1';
+    private $servername ='servername';
+    private $dbname='dbname';
+    private $username='username';
+    private $password='password';
 
     public function connect(){
 
